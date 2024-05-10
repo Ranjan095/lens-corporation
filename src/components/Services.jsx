@@ -25,27 +25,29 @@ const Services = () => {
       <div className=" h-[400px] w-full bg-[#272E5C] dark:bg-[#242424]">
         <div>
           <div className=" flex h-full w-full ">
-            <div className=" relative">
+            <div className=" relative hidden lg:block">
               <img
                 className=" ml-[50px]"
                 src="https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FvectorAi.8ec84e23.png&w=750&q=75"
                 alt=""
               />
             </div>
-            <div className="">
-              <div className=" flex">
-                <h1 className=" text-[70px] font-semibold text-white">Meet </h1>
-                <h1 className=" text-[70px] font-semibold text-blue-500">
+            <div className="sm:ml-4 md:ml-4 ">
+              <div className=" flex ">
+                <h1 className=" text-[50px] lg:text-[70px] font-semibold text-white">
+                  Meet{" "}
+                </h1>
+                <h1 className=" text-[50px] lg:text-[70px] font-semibold text-blue-500">
                   Tru-AI
                 </h1>
               </div>
               <h1 className=" text-[30px] font-semibold text-white">
                 Design. Create. Deploy.
               </h1>
-              <h1 className=" text-[30px] font-semibold text-blue-500">
+              <h1 className=" text-[20px] lg:text-[30px] font-semibold text-blue-500">
                 the Future of AI | Power to EDIT
               </h1>
-              <h1 className=" text-[20px] font-semibold text-white">
+              <h1 className=" text-[15px] lg:text-[20px] font-semibold text-white">
                 Based On Your Website & Traffic Trends, Tru-AI Optimises Your
                 Website
               </h1>
