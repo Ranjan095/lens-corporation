@@ -43,7 +43,7 @@ function Navbar() {
   };
 
   return (
-    <div className="relative w-full bg-white dark:bg-gray-800  p-5">
+    <div className=" sticky top-[0px] z-10 w-full bg-white dark:bg-gray-800  p-5">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-20">
         <div className="inline-flex items-center space-x-2">
           <Link href={"/"}>

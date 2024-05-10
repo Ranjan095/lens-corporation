@@ -5,8 +5,11 @@ import React from "react";
 const About = () => {
   return (
     <div className="dark:bg-black">
-      <div className="  p-10">
-        <h1 className=" text-6xl dark:text-white text-center">About Us</h1>
+      <div className=" p-20 flex flex-col items-center">
+        <h1 className=" text-6xl font-medium dark:text-white text-center">
+          About Us
+        </h1>
+        <div className=" mt-3 w-40 h-2 bg-gradient-to-r from-[#0896FF] via-[#3AB9FF] to-[#93F7FF] rounded-full"></div>
       </div>
       <div className="  flex justify-center items-center">
         <section className=" rounded-2xl transition ease-in-out delay-15 duration-500 hover:scale-110 w-[80%] lg:h-[500px] bg-[#E2F2FF] dark:bg-[#1B1C1E]">
