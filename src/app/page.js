@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <div className="relative dark:bg-black">
-        <video autoPlay loop className="w-full">
+        <video autoPlay muted loop className="w-full">
           <source src="https://res.cloudinary.com/detwrhe0k/video/upload/v1691730947/lenscorp-website/pexels-pressmaster-3129671-3840x2160-30fps_1_ak5nsz_d7alrn.mp4" />
         </video>
         <div className="absolute inset-0 w-full flex flex-col  items-center justify-center bg-transparent">
