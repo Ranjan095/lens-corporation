@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Services from "@/components/Services";
+import WhyChoseLens from "@/components/WhyChoseLens";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       </div>
       <About/>
       <Services/>
+      <WhyChoseLens/>
     </div>
   );
 }
