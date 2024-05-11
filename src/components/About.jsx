@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="dark:bg-black">
       <div className=" p-20 flex flex-col items-center">
-        <h1 className=" text-6xl font-medium dark:text-white text-center">
+        <h1 className=" text-[30px] lg:text-[58px] font-medium dark:text-white text-center">
           About Us
         </h1>
         <div className=" mt-3 w-40 h-2 bg-gradient-to-r from-[#0896FF] via-[#3AB9FF] to-[#93F7FF] rounded-full"></div>

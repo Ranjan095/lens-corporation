@@ -7,17 +7,17 @@ const WhyChoseLens = () => {
   return (
     <div className="dark:bg-black">
       <div className=" p-[68px] flex flex-col items-center">
-        <h1 className=" text-[25px] font-medium dark:text-white text-center">
+        <h1 className=" dark:text-[#fff] text-center text-[30px]  my-[30px] lg:px-20 ">
           WHY CHOOSE LENS
         </h1>
         <div className=" w-[75px] h-[4px] bg-gradient-to-r from-[#0896FF] via-[#3AB9FF] to-[#93F7FF] rounded-full"></div>
       </div>
       <div className=" flex justify-center items-center">
         <div className=" text-center  w-[60%]  ">
-          <h1 className=" text-[58px] tracking-widest dark:text-white ">
+          <h1 className=" text-[30px] lg:text-[58px] tracking-widest dark:text-white ">
             AI-driven solutions backed by science
           </h1>
-          <h1 className=" text-gray-500 font-semibold text-[20px] tracking-widest m-[50px]">
+          <h1 className=" text-gray-500 font-semibold text-[20px] lg:tracking-widest my-[50px]">
             Every piece of AI technology shipped from LENS is thoroughly
             benchmarked via rigorous evaluations. With a global network of
             experts and academicians, we guarantee the most accurate and robust

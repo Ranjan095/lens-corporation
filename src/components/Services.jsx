@@ -12,7 +12,7 @@ const Services = () => {
         </h1>
         <div className=" w-[75px] h-[4px] bg-gradient-to-r from-[#0896FF] via-[#3AB9FF] to-[#93F7FF] rounded-full"></div>
       </div>
-      <h1 className="dark:text-[#fff] text-center text-[58px] px-20 ">
+      <h1 className="dark:text-[#fff] text-center text-[30px] lg:text-[58px] px-20 ">
         We provide Artificial Intelligence Services
       </h1>
       <div className="lg:grid grid-cols-2 lg:m-[100px] justify-items-center items-center ">
@@ -32,7 +32,7 @@ const Services = () => {
                 alt=""
               />
             </div>
-            <div className="sm:ml-4 md:ml-4 ">
+            <div className="sm:ml-4 md:ml-4 p-[30px] ">
               <div className=" flex ">
                 <h1 className=" text-[50px] lg:text-[70px] font-semibold text-white">
                   Meet{" "}
@@ -58,7 +58,7 @@ const Services = () => {
                   muted
                   autoPlay
                   loop
-                  className="z-0 h-[100%] w-[100%] object-cover rounded-l-full"
+                  className="z-0 hidden md:block h-[100%] w-[100%] object-cover rounded-l-full"
                 >
                   <source src="https://res.cloudinary.com/detwrhe0k/video/upload/v1691730954/lenscorp-website/product-intro_1_dmajx1_qaemeu.mp4" />
                 </video>
