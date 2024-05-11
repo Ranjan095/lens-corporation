@@ -72,7 +72,7 @@ const WhyChoseLens = () => {
         </div>
       </div>
       {/* Why chose Lens Card */}
-      <div className=" grid mt-[70px] grid-cols-3 justify-items-center items-center text-center gap-4 p-[30px] ">
+      <div className=" grid mt-[70px] grid-cols-1  md:grid-cols-2 lg:grid-cols-3 justify-items-center items-center text-center gap-4 p-[30px] ">
         {wclList.map((ele) => (
           <WclCard key={ele.id} {...ele} />
         ))}

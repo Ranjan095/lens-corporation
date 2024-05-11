@@ -53,7 +53,7 @@ const Services = () => {
               </h1>
             </div>
             <div className=" relative flex justify-center items-center">
-              <div className=" flex items-center justify-center h-[200px] w-[300px] ">
+              <div className=" flex items-center justify-center h-[150px] lg:h-[200px] w-[100%] ">
                 <video
                   muted
                   autoPlay

@@ -19,7 +19,7 @@ const ServideCard = ({ id, title, content, color }) => {
             ? "border-[#FF605F]"
             : "border-[#FF9F31]"
           : " border-[#6D7578]"
-      } rounded-md dark:bg-[#1B1C1E] p-3 m-[20px] w-[520px] h-[350px]`}
+      } rounded-md dark:bg-[#1B1C1E] p-3 m-[20px]  h-[350px]`}
     >
       <div className=" flex justify-items-center items-center">
         <div className=" flex relative">
