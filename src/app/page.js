@@ -32,7 +32,7 @@ export default function Home() {
       <WhyChoseLens/>
       <OurVision/>
       <TimeLine/>
-      {/* <Client/> */}
+      <Client/>
     </div>
   );
 }
