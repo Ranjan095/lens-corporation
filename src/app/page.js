@@ -1,6 +1,8 @@
 import About from "@/components/About";
+import Client from "@/components/Client";
 import OurVision from "@/components/OurVision";
 import Services from "@/components/Services";
+import TimeLine from "@/components/TimeLine";
 import WhyChoseLens from "@/components/WhyChoseLens";
 
 export default function Home() {
@@ -29,6 +31,8 @@ export default function Home() {
       <Services/>
       <WhyChoseLens/>
       <OurVision/>
+      <TimeLine/>
+      {/* <Client/> */}
     </div>
   );
 }

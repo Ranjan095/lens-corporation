@@ -48,11 +48,11 @@ function Navbar() {
         <div className="inline-flex items-center space-x-2">
           <Link href={"/"}>
             <span>
-              <Image
-                // width={30}
-                // height={30}
+              <img
+                width={50}
+                height={50}
                 className="rounded-full"
-                src={logo}
+                src={"https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav_logo.e5fb945a.png&w=256&q=75"}
                 alt="Logo"
               />
             </span>
@@ -113,11 +113,11 @@ function Navbar() {
                 <div className="flex items-center justify-between">
                   <div className="inline-flex items-center space-x-2">
                     <span>
-                      <Image
-                        // width={30}
-                        // height={30}
+                      <img
+                        width={50}
+                        height={50}
                         className="rounded-full"
-                        src={logo}
+                        src={"https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav_logo.e5fb945a.png&w=256&q=75"}
                         alt="Logo"
                       />
                     </span>
