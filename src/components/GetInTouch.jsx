@@ -29,7 +29,7 @@ const GetInTouch = () => {
           </div>
         </div>
       </div>
-      <div className="lg:w-[50%] h-[600px] dark:border-t-2 border-[#242424] flex justify-items-center">
+      <div className="lg:w-[50%] h-[600px] dark:border-y-2 border-[#242424] flex justify-items-center">
         <img
           className=" p-[10px]"
           src="https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FMap.1a735ef7.png&w=1920&q=75"
