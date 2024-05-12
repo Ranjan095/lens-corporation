@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Client from "@/components/Client";
+import GetToKnowUs from "@/components/GetToKnowUs";
 import Numbers from "@/components/Numbers";
 import OurVision from "@/components/OurVision";
 import Services from "@/components/Services";
@@ -35,6 +36,7 @@ export default function Home() {
       <TimeLine/>
       <Client/>
       <Numbers/>
+      <GetToKnowUs/>
     </div>
   );
 }

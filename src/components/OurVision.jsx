@@ -19,9 +19,6 @@ const OurVision = () => {
           in the market.
         </h1>
       </div>
-      {/* Stapper Start */}
-      
-      {/* Stapper end */}
     </div>
   );
 };
