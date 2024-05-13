@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useEffect, useState } from "react";
 import { Menu, X, Moon, Sun } from "lucide-react";
 import Link from "next/link";
@@ -22,8 +21,10 @@ const menuItems = [
 ];
 
 function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [theme, setTheme] = useState("light");
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
 
   useEffect(() => {
     if (theme === "dark") {
@@ -31,8 +32,21 @@ function Navbar() {
     } else {
       document.documentElement.classList.remove("dark");
     }
-    console.log(theme);
-  }, [theme]);
+    // console.log(theme);
+
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      setVisible(
+        currentScrollPos <= 10 || currentScrollPos < prevScrollPos
+      );
+      setPrevScrollPos(currentScrollPos);
+    };
+    
+    
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [prevScrollPos, theme]);
 
   let handleTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark");
@@ -43,7 +57,11 @@ function Navbar() {
   };
 
   return (
-    <div className="sticky top-[0px] z-10 w-full bg-white dark:bg-gray-800  p-5">
+    <div
+      className={`sticky top-0 z-10 w-full bg-white dark:bg-gray-800 p-5 transition-transform ${
+        visible ? "translate-y-0" : "-translate-y-full"
+      }`}
+    >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-20">
         <div className="inline-flex items-center space-x-2">
           <Link href={"/"}>
@@ -52,7 +70,9 @@ function Navbar() {
                 width={50}
                 height={50}
                 className="rounded-full"
-                src={"https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav_logo.e5fb945a.png&w=256&q=75"}
+                src={
+                  "https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav_logo.e5fb945a.png&w=256&q=75"
+                }
                 alt="Logo"
               />
             </span>
@@ -117,7 +137,9 @@ function Navbar() {
                         width={50}
                         height={50}
                         className="rounded-full"
-                        src={"https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav_logo.e5fb945a.png&w=256&q=75"}
+                        src={
+                          "https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav_logo.e5fb945a.png&w=256&q=75"
+                        }
                         alt="Logo"
                       />
                     </span>

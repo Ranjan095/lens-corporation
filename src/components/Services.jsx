@@ -21,7 +21,7 @@ const Services = () => {
         ))}
       </div>
       {/*Start Creating MEET Tru-AI */}
-      <div className=" relative border-l-[98vw] border-transparent border-solid border-b-[13.9vw] border-b-[#272E5C] dark:border-b-[#242424]"></div>
+      <div className=" relative border-l-[95vw] border-transparent border-solid border-b-[13.9vw] border-b-[#272E5C] dark:border-b-[#242424]"></div>
       <div className=" h-[400px] w-full bg-[#272E5C] dark:bg-[#242424]">
         <div>
           <div className=" flex h-full w-full ">

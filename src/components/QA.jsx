@@ -6,7 +6,7 @@ const QA = ({ title, content }) => {
   let [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <div className=" cursor-pointer rounded-md border border-gray-400 transition-all duration-300 w-[600px]">
+      <div className=" cursor-pointer rounded-md border border-gray-400 transition-all duration-300 w-[350px] md:w-[600px]">
         <button
           onClick={() => {
             setIsOpen(!isOpen);

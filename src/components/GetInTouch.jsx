@@ -6,7 +6,7 @@ const GetInTouch = () => {
       <div className=" lg:w-[50%] h-[600px]  dark:bg-[#242424] flex justify-items-center">
         <div>
           <div className=" flex justify-center items-center">
-            <h1 className=" text-[64px] my-[50px] dark:text-white px-[100px]">
+            <h1 className=" text-[30px] lg:text-[64px] my-[50px] dark:text-white px-[100px]">
               Get in touch with us
             </h1>
           </div>
