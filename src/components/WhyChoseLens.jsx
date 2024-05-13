@@ -5,7 +5,7 @@ import WclCard from "./WclCard";
 
 const WhyChoseLens = () => {
   return (
-    <div className="dark:bg-black">
+    <div className="dark:bg-black bg-gradient-to-r from-[#E9F7F1] via-[#DFF4EE] to-[#DFF4EE]">
       <div className=" p-[68px] flex flex-col items-center">
         <h1 className=" dark:text-[#fff] text-center text-[30px]  my-[30px] lg:px-20 ">
           WHY CHOOSE LENS

@@ -5,7 +5,7 @@ import ServideCard from "./ServideCard";
 
 const Services = () => {
   return (
-    <div className="dark:bg-black">
+    <div className="dark:bg-black bg-transparent ">
       <div className=" p-[68px] flex flex-col items-center">
         <h1 className=" text-[20px] font-medium dark:text-white text-center">
           SERVICES
