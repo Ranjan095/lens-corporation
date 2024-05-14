@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import GetInTouch from "@/components/GetInTouch";
 import GetToKnowUs from "@/components/GetToKnowUs";
 import Numbers from "@/components/Numbers";
+import OurBlogs from "@/components/OurBlogs";
 import OurVision from "@/components/OurVision";
 import Services from "@/components/Services";
 import TimeLine from "@/components/TimeLine";
@@ -42,6 +43,7 @@ export default function Home() {
       <WhyChoseLens />
       <OurVision />
       <TimeLine />
+      <OurBlogs/>
       <Client />
       <Numbers />
       <GetToKnowUs />
